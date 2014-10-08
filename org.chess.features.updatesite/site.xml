@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="CHESS update site">
+      Collects all the CHESS features
+   </description>
+   <feature url="features/org.chess.extraplugins.feature_1.0.0.201410071709.jar" id="org.chess.extraplugins.feature" version="1.0.0.201410071709">
+      <category name="org.chess.feature.updatesite.category"/>
+   </feature>
+   <feature url="features/org.intecs.chess.automotive.feature_1.0.0.201410071709.jar" id="org.intecs.chess.automotive.feature" version="1.0.0.201410071709">
+      <category name="org.chess.feature.updatesite.category"/>
+   </feature>
+   <feature url="features/org.intecs.chess.medini.feature_1.0.0.201410071709.jar" id="org.intecs.chess.medini.feature" version="1.0.0.201410071709">
+      <category name="org.chess.feature.updatesite.category"/>
+   </feature>
+   <feature url="features/org.intecs.forever.feature_1.4.1.201410071709.jar" id="org.intecs.forever.feature" version="1.4.1.201410071709">
+      <category name="org.chess.feature.updatesite.category"/>
+   </feature>
+   <feature url="features/org.polarsys.chess.feature_0.7.0.201410071709.jar" id="org.polarsys.chess.feature" version="0.7.0.201410071709">
+      <category name="org.chess.feature.updatesite.category"/>
+   </feature>
+   <category-def name="org.chess.feature.updatesite.category" label="CHESS Feature">
+      <description>
+         CHESS Toolset
+      </description>
+   </category-def>
+</site>
